@@ -1,0 +1,28 @@
+//arithmatic operation
+#include<stdio.h>
+#include<conio.h>
+
+void main()
+{
+     clrscr()
+     float pa,r,y,si;
+     printf("enter any number")
+     scanf("%f" ,&n);
+
+     printf("emter value of principle amount:") ;
+     scanf("%f" ,pa);
+
+     printf("rate of rate of interest:");
+     scanf("%f" ,&r);
+
+     printf(" number of years :");
+     scanf("%f" , &y);
+
+     si=(pa*r*y)/100;
+     printf("\n simple interest is %f"),si);
+
+     getch();
+
+
+
+}
