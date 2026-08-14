@@ -1,0 +1,14 @@
+#include<stdio.h>
+#include<cpnio.h>
+
+void main()
+{
+    char x;
+    clrscr();
+    printf("\n enter any character:");
+    sacnf("%c",&x);
+
+    printf("\n input character is : %c" ,x);
+    printf("\n ASCII code is : %d",x);
+    getch();
+}
